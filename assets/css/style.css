@@ -1,10 +1,11 @@
 
 .header {
 	background-color: white;
+	width: 100%;	
 }
 
-#top_links {
-	
+.top_links {
+	float: right; 
 }
 
 h2,
@@ -71,9 +72,15 @@ h1 {
 #connect {
 	background-color: white;
 	width: 30%;
+	text-align: center;
 	display: inline;
 	margin-left: 50px;
+	padding: 0px;
 
+}
+
+#thumbnail {
+	margin: -10px
 }
 
 #about_me,
