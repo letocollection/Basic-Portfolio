@@ -3,40 +3,44 @@
 	<head>
 		<title>Contact</title>
 		<meta charset="utf-8">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
 		<header>
-			<section id="name">
-				<h1>Leonard Oh</h1>
-			</section>
-			<section id="toplinks">
-				<ul>
-					<li class="links">About</li>
-					<li class="links">Portfolio</li>
-					<li class="links">Contact</li>
-				</ul>
-			</section>
+			<div class="header_content">
+				<section id="name">
+					<h1>Leonard Oh</h1>
+				</section>
+				<section id="toplinks">
+					<ul id="toplinks">
+						<li class="links"><a href="index.html">About</a></li>
+						<li class="links"><a href="portfolio.html">Portfolio</a></li>
+						<li class="links"><a href="contact.html">Contact</a></li>
+					</ul id="toplinks">
+				</section>
+			</div>
 		</header>	
 		<div class="container2">
 			<section class="contact">
 				<h2>Contact</h2>
-				<h5>Name</h5>
-				<form class="form">
-				<p class="name">
-				<input type="text" name="name" id="name" placeholder ="John Smith" />
-				</p>
-				<h5>Email</h5>
-				<p class="email">
-				<input type="text" name="email" id="email" placeholder ="email@gmail.com" />
-				</p>
-				<h5>Message</h5>
-				<p class="message">
-				<textarea name="message" /></textarea>
-				</p>
-				<p class="Submit">
-				<input type="submit" value="Submit" />
-				</p>
+					<div class="form">
+						<h5>Name</h5>
+						<p class="entry">
+						<input type="text" name="name" id="name" size="100%" placeholder ="John Smith" />
+						</p>
+						<h5>Email</h5>
+						<p class="entry">
+						<input type="text" name="email" id="email" size="100%" placeholder ="email@gmail.com" />
+						</p>
+						<h5>Message</h5>
+						<p class="entry">
+						<textarea name="message" rows="10" cols="100%"/></textarea>
+						</p>
+						<p class="Submit">
+						<input type="submit" value="Submit" style="width:100px;" />
+						</p>
+					</div>
 			</section>
 			<section class="connect">
 				<h3>Connect with Me</h3>
@@ -46,6 +50,7 @@
 					<li class="thumbnails"><img src="assets/images/stack_logo.svg" style="width:40px;height:40px;"></li>
 				</ul>
 			</section>	
+		</div>	
 	</body>
 	<footer>
 		<div class="footer">

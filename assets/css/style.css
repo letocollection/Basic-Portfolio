@@ -30,6 +30,10 @@ h1 {
 a{
 	text-decoration: none;
 }
+#submit{
+	width: 100px;
+	height: 100px;
+}
 
 .links{
 	display: inline;
@@ -73,6 +77,14 @@ h5{
 	width: 270px;
 	text-align: center;
 	float: right;
+}
+.form{
+	padding: 10px;
+}
+
+.entry{
+	padding: 10px;
+	width: 100%;
 }
 
 .about_me,
