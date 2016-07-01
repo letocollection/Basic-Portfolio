@@ -135,13 +135,16 @@ img{
 	position:relative;
 	width: 300px;
 	float: left;
+	padding:6.25px;
+/*	text-align: center;*/
 }
 
-.image-text h3{
+.image-text p{
 	position: absolute;
-	left: 0;
-	top: 0;
-	background: blue;
+	/*left: */
+	top: 60%;
+	text-align: center;
+	background: #4aaaa5;
 	color: white;
 }
 
