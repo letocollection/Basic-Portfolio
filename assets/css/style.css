@@ -87,7 +87,11 @@ h5{
 	background: url("../images/cork-wallet.png");
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
 
+.about{
+	line-height: 191%;
+	margin-left: 15px;
 }
 
 .connect {
@@ -182,6 +186,31 @@ ul.thumbnailbox{
 	width: 960px;
 }
 
+input{
+	width:594px;
+	font-size: 18px;
+}
+
+textarea{
+	width: 594px;
+	font-size: 18px;
+}
+
+#submit_button{
+	width: 50px;
+	background-color: #4aaaa5;
+	color: white;
+	border: none;
+	width: 81px;
+	padding: 8px;
+
+}
+
+#footer{
+	margin-top: 25px;
+	color: lightgray;
+}
+
 footer {
 	background-color: #666666;
 	text-align: center;
@@ -192,4 +221,5 @@ footer {
 	border-color: #4aaaa5;
 	clear: both;
 	height: 100px;
+	text-decoration: none;
 }
